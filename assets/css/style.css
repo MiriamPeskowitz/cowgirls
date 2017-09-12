@@ -1,4 +1,18 @@
 body {
 	background-color: skyBlue;
+	display: flex;
+	justify-content: left;
 	
+}
+
+
+#quote {
+		display:flex;
+}
+
+#dice {
+		display: flex;
+		justify-content:  left;
+		align-items:  center;
+		align-content:	center; 	
 }
