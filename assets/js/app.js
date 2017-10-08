@@ -26,7 +26,7 @@ $(document).ready(function(){
 	];
 
 
-	var num = Math.floor(Math.random() * 12) + 1;
+	var num = Math.floor(Math.random() * 5) + 1;
 		
 
 
@@ -45,7 +45,7 @@ $(document).ready(function(){
 	}
 
 	function changeQuote() {
-		num = Math.floor(Math.random() * 4) + 1;
+		num = Math.floor(Math.random() * 12) + 1;
 		randomQuote = quotes[num];
 		$('#quote').empty();
 		$('#quote').append(randomQuote);
