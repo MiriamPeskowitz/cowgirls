@@ -6,9 +6,7 @@ $(document).ready(function(){
 		"Because when I ride, all I feel is free.", 
 		"If you don’t like the road you’re walking, start paving another one.", 
 		"Always saddle your own horse.", 
-		“Real Princesses, don’t kiss toads, they ride horses.”,
-		“One Girl Who Would Rather Wear Boots Than High Heels.”,
-		“Keep Calm and Cowgirl On!”,
+		"Keep calm and cowgirl on!", 
 		"I never lose. I either win or learn.", 
 		"When you believe in yourself, you've already circled the third barrel.", 
 		"Fall asleep with a dream, wake up with a purpose",
@@ -45,7 +43,7 @@ $(document).ready(function(){
 	}
 
 	function changeQuote() {
-		num = Math.floor(Math.random() * 12) + 1;
+		num = Math.floor(Math.random() * 10) + 1;
 		randomQuote = quotes[num];
 		$('#quote').empty();
 		$('#quote').append(randomQuote);
