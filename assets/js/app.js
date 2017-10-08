@@ -6,6 +6,14 @@ $(document).ready(function(){
 		"Because when I ride, all I feel is free.", 
 		"If you don’t like the road you’re walking, start paving another one.", 
 		"Always saddle your own horse.", 
+		“Real Princesses, don’t kiss toads, they ride horses.”,
+		“One Girl Who Would Rather Wear Boots Than High Heels.”,
+		“Keep Calm and Cowgirl On!”,
+		"I never lose. I either win or learn.", 
+		"When you believe in yourself, you've already circled the third barrel.", 
+		"Fall asleep with a dream, wake up with a purpose",
+		"Here's to the girls... who weren't afraid to wear their barn clothes in public.", 
+		"If a cowgirl is smiling, she's thinking of doing something crazy. If she's laughing, she's already done it.", 
 		"Cowgirl is a spirit, a special brand of courage. The cowgirl faces life head on, lives by her own lights, and makes no excuses. Cowgirls take stands. They speak up. They defend the things they hold dear. A cowgirl might be a rancher, or a barrel racer, or a bull rider, or an actress. But she's just as likely to be a checker at the local Winn Dixie, a full-time mother, a banker, an attorney, or an astronaut."
 	];
 
@@ -18,7 +26,7 @@ $(document).ready(function(){
 	];
 
 
-	var num = Math.floor(Math.random() * 6) + 1;
+	var num = Math.floor(Math.random() * 12) + 1;
 		
 
 
